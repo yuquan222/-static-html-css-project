@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body {
+    background-color: #EEF3FA;
+    color: #606060;
+    font-size: 14px;
+    font-family: 微软雅黑, 宋体, Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    min-width: 990px;/*该属性值会对元素的宽度设置一个最小限制。因此，元素可以比指定值宽，但不能比其窄。不允许指定负值。*/
+    margin: 0 auto;
+}
+/*头部*/
+.header{
+    width: 990px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header-logo{
+    display: inline-block;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+img{
+    border: 0;
+    vertical-align: middle;
+}
+.header-tab{
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    padding-top: 9px;
+    line-height: 20px;
+}
+.header-tab>a{
+    text-decoration: none;
+    color: #606060;
+}
+.header-tab>a:hover{
+    color: rgb(17,37,189);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.header-tab>span{
+    padding: 0 9px;
+}
+
+
+.nav{
+    height: 36px;
+    background: url("../img/nav_bg.png") repeat-x;
+    overflow: hidden;
+}
+.menus{
+
+    width: 990px;
+    margin: 0 auto;
+}
+.menus>ul{
+    float: left;
+}
+.menus>ul>li{
+    float: left;
+    padding-right: 10px;
+}
+.menus a{
+    display: inline-block;
+    width:132px ;
+    height: 36px;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    background: url(../img/navbg.png) no-repeat;
+}
+.menus .nav1:hover{
+    background-position: 0 -36px;;
+}
+.menus  .nav2{
+    background-position: -132px 0;
+}
+.menus  .nav2:hover{
+    background-position: -132px -36px;
+}
+.menus  .nav3{
+    background-position: -264px 0;
+}
+.menus  .nav3:hover{
+    background-position: -264px -36px;
+}
+.menus  .nav4{
+    background-position: -396px -36px;
+}
+.nav-campus{
+    float: right;
+    width: 116px;
+    height: 36px;
+    cursor: pointer;
+    background: url(../img/nav_xy.png) no-repeat 0 center;
+}
+/*end 头部*/
+/* 详细介绍*/
+main{
+    padding-top: 12px;
+    width: 990px;
+    margin: 0px auto;
+}
+.workInTencent{
+    padding: 35px 45px;
+    border: 1px solid #D3E1ED;
+    background-color: #FAFDFF;
+
+}
+.inQQMenu{
+    display: inline-block;
+}
+.inQQMenu1{
+    display: block;
+    float: left;
+    width: 214px;
+    height: 214px;
+    background: url("../img/rztx1.png") no-repeat 0 0;
+    margin-right: 11px;
+}
+.inQQMenu1>div{
+    height: 214px;
+    background: url("../img/fuli1.png") no-repeat center 23px ;
+}
+.inQQMenu2{
+    display: block;
+    float: left;
+    width: 214px;
+    height: 214px;
+    background: url("../img/rztx1.png") no-repeat -214px 0;
+    margin-right: 11px;
+}
+.inQQMenu2:hover{
+    background: url("../img/rztx1.png") no-repeat 0 0;
+}
+.inQQMenu2>div{
+    height: 214px;
+    background: url("../img/fuli2.png") no-repeat center 23px ;
+}
+.inQQMenu3{
+    display: block;
+    float: left;
+    width: 214px;
+    height: 214px;
+    background: url("../img/rztx1.png") no-repeat -214px 0;
+    margin-right: 10px;
+}
+.inQQMenu3:hover{
+    background: url("../img/rztx1.png") no-repeat 0 0;
+}
+.inQQMenu3>div{
+    height: 214px;
+    background: url("../img/fuli3.png") no-repeat center 23px ;
+}
+.inQQMenu4{
+    display: block;
+    float: left;
+    width: 214px;
+    height: 214px;
+    background: url("../img/rztx1.png") no-repeat -214px 0;
+}
+.inQQMenu4:hover{
+    background: url("../img/rztx1.png") no-repeat 0 0;
+}
+.inQQMenu4>div{
+    height: 214px;
+    background: url("../img/fuli4.png") no-repeat center 23px ;
+}
+.inQQct{
+    padding: 42px 0 12px;
+    margin-bottom: 13px;
+    border-bottom: 1px solid #CCE6F5;
+}
+.inQQct>div{
+    height: 18px;
+    width: 66px;
+    background: url(../img/inQQTitles.png) no-repeat;
+    margin: 0 auto;
+}
+.height20{
+    height: 20px;
+    overflow: hidden;
+}
+.inqqgzhj{
+    width: 88px;
+    height: 18px;
+    background: url("../img/inQQTitles.png") no-repeat -66px 0;
+}
+.bigimg-gzhj{
+    height: 464px;
+    width: 900px;
+    background: url("../img/gzhj0.gif") no-repeat center;
+    margin-top: 9px;
+}
+.split{
+    width: 901px;
+    height: 50px;
+    margin: 0 auto;
+    background: url(../img/rztx4.png) no-repeat center;
+}
+.inqqbgd1{
+    width: 88px;
+    height: 18px;
+    background: url("../img/inQQTitles.png") no-repeat -154px 0;
+}
+.bigimg-bgd1{
+    height: 464px;
+    width: 900px;
+    background: url("../img/bgdl0.gif") no-repeat center;
+    margin-top: 9px;
+}
+
+
+table{
+    width: 100%;
+}
+.hhotzw a{
+    color: #464646;
+    line-height: 27px;
+    text-decoration: none;
+}
+.hhotzw a:hover{
+    color:rgb(17,37,139);
+    text-decoration: underline;
+}
+.content-right{
+    width: 399px;
+    float: right;
+    padding-top: 24px;
+}
+.right-top{
+    padding: 0 13px 0 17px;
+}
+.square a{
+    display: block;
+    line-height: 22px;
+    background: url("../img/li.png") 0 center no-repeat ;
+    padding-left: 10px;
+}
+.square a:hover{
+    color:rgb(17,37,139);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.textr{
+    text-align: right;
+    padding-top: 1px;
+}
+.textr a{
+    float: right;
+    display:block;
+    height: 10px;
+    width: 10px;
+    background: url("../img/dian.png") no-repeat -10px 0px;
+}
+.right-bottom{
+    float: right;
+    padding-top: 35px;
+    padding-right: 5px;
+}
+.videoshow{
+    width: 386px;
+    height: 220px;
+    background: url("../img/video_show.png");
+}
+.videoshow a{
+    display: block;
+    width: 386px;
+    height: 220px;
+    background: url("../img/player1.png") no-repeat center;
+}
+/* end 详细介绍*/
+/*底部招聘全集*/
+article{
+    padding-top: 50px;
+}
+article>table{
+    width: 960px;
+    margin: 0 auto;
+}
+article>table a{
+    color: #464646;
+    text-decoration: none;
+    cursor: pointer;
+}
+article>table a:hover{
+    color:rgb(17,37,139);
+    text-decoration: underline;
+}
+/*end 底部招聘全集*/
+/*版权信息*/
+footer{
+    width: 990px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/*end 版权信息*/

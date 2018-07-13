@@ -1,0 +1,451 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    min-width: 990px;
+    margin: 0 auto;
+    background-color: #Fdfdfd;
+    font-size: 14px;
+    color: #606060;
+    font-family: Arial,Verdana,Arial,Helvetica,sans-serif;
+}
+/*头部*/
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+header{
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.link{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #C6C6C6;
+    overflow: hidden;
+}
+.link span{
+    padding-right: 5px;
+    margin-left: -5px;
+    float: right;
+    text-indent: 15px;
+    height: 13px;
+    line-height: 13px;
+    color: #A0A0A0;
+}
+.weibo{
+    background: url(../img/weibo.gif) no-repeat;
+    text-indent: 18px;
+    float: right;
+    height: 13px;
+    line-height: 13px;
+    margin-left: 5px;
+    color: #A0A0A0;
+}
+.col{
+    float: right;
+    text-indent: 15px;
+    height: 13px;
+    line-height: 13px;
+    margin-left: 5px;
+    color: #A0A0A0;
+}
+.menu{
+    margin-top: 30px;
+    color: #A0A0A0;
+}
+.menu img{
+    float: left;
+    margin-right: 30px;
+    border: none;
+    vertical-align: middle;
+}
+.menuIo{
+    height: 32px;
+    margin-left: 180px;
+    padding-top: 2px;
+}
+.menuIo ul li{
+    float: left;
+    height: 32px;
+    line-height: 27px;
+    padding-right: 45px;
+}
+.menuIo .nowid{
+    height: 16px;
+    line-height: 16px;
+    border-left: 1px solid #9A9A9A;
+    padding-right: 3px;
+    padding-top: 0;
+    margin-top: 3px;
+}
+.menu ul li a {
+    padding: 0 4px;
+    display: block;
+}
+.bg{
+    height: 32px;
+    background: url(../img/bg.jpg) no-repeat;
+    color: #FFFFFF;
+}
+.angle{
+    background: url(../img/angle.jpg);
+    text-align: left;
+    width: 70px;
+}
+/*end 头部*/
+/*地图*/
+main{
+    margin: 0 auto;
+     background: url("../img/banner_bg1.png") repeat-x 0 0 #94b8d6;
+ }
+.homemap{
+    position: relative;
+    background: url("../img/banner.png") no-repeat;
+    background-position: -81px 0px;
+    width: 1500px;
+    height: 596px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.homemap:hover{
+    cursor: url("../img/shou.png"),move;
+}
+.mapusl{
+    height: 87px;
+    width: 194px;
+    background: url(../img/us1_all.png) right -89px no-repeat;
+    left: 210px;
+    top: 159px;
+    position: absolute;
+    z-index: 2;
+}
+.in1 a{
+    display: block;
+    background: url("../img/dian05.png") no-repeat 0 0;
+    position: absolute;
+    z-index: 0;
+    width: 32px;
+    height: 32px;
+    left: 210px;
+    top: 190px;
+    -webkit-animation-name:ripple;/*动画属性名，也就是我们前面keyframes定义的动画名*/
+    -webkit-animation-duration: 1s;/*动画持续时间*/
+    -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+    -webkit-animation-delay: 0s;/*动画延迟时间*/
+    -webkit-animation-iteration-count: infinite;/*定义循环资料，infinite为无限次*/
+    -webkit-animation-direction: alternate;/*定义动画方式*/
+
+}
+@keyframes ripple {
+    0% {
+
+        transform: scale(0.3);
+    }
+
+}
+.mapkr{
+    height: 87px;
+    width: 194px;
+    background: url(../img/kr_all.png) right -89px no-repeat;
+    left: 1170px;
+    top: 166px;
+    position: absolute;
+    z-index: 1;
+}
+.in2 a{
+    display: block;
+    background: url("../img/dian05.png") no-repeat 0 0;
+    position: absolute;
+    z-index: 0;
+    width: 32px;
+    height: 32px;
+    left: 1215px;
+    top: 198px;
+    -webkit-animation-name:ripple;/*动画属性名，也就是我们前面keyframes定义的动画名*/
+    -webkit-animation-duration: 1s;/*动画持续时间*/
+    -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+    -webkit-animation-delay: 0s;/*动画延迟时间*/
+    -webkit-animation-iteration-count: infinite;/*定义循环资料，infinite为无限次*/
+    -webkit-animation-direction: alternate;/*定义动画方式*/
+
+}
+@keyframes ripple {
+    0% {
+
+        transform: scale(0.3);
+    }
+
+}
+.Brazil a{
+    display: block;
+    background: url("../img/dian05.png") no-repeat 0 0;
+    position: absolute;
+    z-index: 0;
+    width: 32px;
+    height: 32px;
+    left: 485px;
+    top:379px;
+    -webkit-animation-name:ripple;/*动画属性名，也就是我们前面keyframes定义的动画名*/
+    -webkit-animation-duration: 1s;/*动画持续时间*/
+    -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+    -webkit-animation-delay: 0s;/*动画延迟时间*/
+    -webkit-animation-iteration-count: infinite;/*定义循环资料，infinite为无限次*/
+    -webkit-animation-direction: alternate;/*定义动画方式*/
+}
+@keyframes ripple {
+    0% {
+
+        transform: scale(0.3);
+    }
+
+}
+.India a{
+    display: block;
+    background: url("../img/dian05.png") no-repeat 0 0;
+    position: absolute;
+    z-index: 0;
+    width: 32px;
+    height: 32px;
+    left: 1018px;
+    top:250px;
+    -webkit-animation-name:ripple;/*动画属性名，也就是我们前面keyframes定义的动画名*/
+    -webkit-animation-duration: 1s;/*动画持续时间*/
+    -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+    -webkit-animation-delay: 0s;/*动画延迟时间*/
+    -webkit-animation-iteration-count: infinite;/*定义循环资料，infinite为无限次*/
+    -webkit-animation-direction: alternate;/*定义动画方式*/
+}
+@keyframes ripple {
+    0% {
+
+        transform: scale(0.3);
+    }
+
+}
+.Hong_Kong a{
+    display: block;
+    background: url("../img/dian05.png") no-repeat 0 0;
+    position: absolute;
+    z-index: 0;
+    width: 32px;
+    height: 32px;
+    left: 1153px;
+    top:252px;
+    -webkit-animation-name:ripple;/*动画属性名，也就是我们前面keyframes定义的动画名*/
+    -webkit-animation-duration: 1s;/*动画持续时间*/
+    -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+    -webkit-animation-delay: 0s;/*动画延迟时间*/
+    -webkit-animation-iteration-count: infinite;/*定义循环资料，infinite为无限次*/
+    -webkit-animation-direction: alternate;/*定义动画方式*/
+}
+@keyframes ripple {
+    0% {
+
+        transform: scale(0.3);
+    }
+
+}
+.Taiwan_China a{
+    display: block;
+    background: url("../img/dian05.png") no-repeat 0 0;
+    position: absolute;
+    z-index: 0;
+    width: 32px;
+    height: 32px;
+    left: 1186px;
+    top:247px;
+    -webkit-animation-name:ripple;/*动画属性名，也就是我们前面keyframes定义的动画名*/
+    -webkit-animation-duration: 1s;/*动画持续时间*/
+    -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+    -webkit-animation-delay: 0s;/*动画延迟时间*/
+    -webkit-animation-iteration-count: infinite;/*定义循环资料，infinite为无限次*/
+    -webkit-animation-direction: alternate;/*定义动画方式*/
+}
+@keyframes ripple {
+    0% {
+
+        transform: scale(0.3);
+    }
+
+}
+.Thailand a{
+    display: block;
+    background: url("../img/dian05.png") no-repeat 0 0;
+    position: absolute;
+    z-index: 0;
+    width: 32px;
+    height: 32px;
+    left: 1109px;
+    top:277px;
+    -webkit-animation-name:ripple;/*动画属性名，也就是我们前面keyframes定义的动画名*/
+    -webkit-animation-duration: 1s;/*动画持续时间*/
+    -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+    -webkit-animation-delay: 0s;/*动画延迟时间*/
+    -webkit-animation-iteration-count: infinite;/*定义循环资料，infinite为无限次*/
+    -webkit-animation-direction: alternate;/*定义动画方式*/
+}
+@keyframes ripple {
+    0% {
+
+        transform: scale(0.3);
+    }
+
+}
+.Vietnam a{
+    display: block;
+    background: url("../img/dian05.png") no-repeat 0 0;
+    position: absolute;
+    z-index: 0;
+    width: 32px;
+    height: 32px;
+    left: 1136px;
+    top:281px;
+    -webkit-animation-name:ripple;/*动画属性名，也就是我们前面keyframes定义的动画名*/
+    -webkit-animation-duration: 1s;/*动画持续时间*/
+    -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+    -webkit-animation-delay: 0s;/*动画延迟时间*/
+    -webkit-animation-iteration-count: infinite;/*定义循环资料，infinite为无限次*/
+    -webkit-animation-direction: alternate;/*定义动画方式*/
+}
+@keyframes ripple {
+    0% {
+
+        transform: scale(0.3);
+    }
+
+}
+.Singapore a{
+    display: block;
+    background: url("../img/dian05.png") no-repeat 0 0;
+    position: absolute;
+    z-index: 0;
+    width: 32px;
+    height: 32px;
+    left: 1116px;
+    top:334px;
+    -webkit-animation-name:ripple;/*动画属性名，也就是我们前面keyframes定义的动画名*/
+    -webkit-animation-duration: 1s;/*动画持续时间*/
+    -webkit-animation-timing-function: ease; /*动画频率，和transition-timing-function是一样的*/
+    -webkit-animation-delay: 0s;/*动画延迟时间*/
+    -webkit-animation-iteration-count: infinite;/*定义循环资料，infinite为无限次*/
+    -webkit-animation-direction: alternate;/*定义动画方式*/
+}
+@keyframes ripple {
+    0% {
+
+        transform: scale(0.3);
+    }
+
+}
+.mapChina{
+    position: absolute;
+    left: 1140px;
+    top: 43px;
+    width: 97px;
+    height: 105px;
+    background: url(../img/ch_all.png) no-repeat;
+}
+/*end 地图*/
+/*介绍详情*/
+aside{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.TenAme{
+    overflow: hidden;
+}
+.TenAme img{
+    float: left;
+    padding-top: 25px;
+    border: none;
+    vertical-align: middle;
+}
+.TenAme h3{
+    float: left;
+    margin-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    line-height: 21px;
+    color: #464646;
+}
+.TenAme p{
+    float: left;
+    color: #9B9B9B;
+    width: 713px;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 8px;
+    text-align: justify;
+}
+.hmore{
+    float: right;
+    width: 44px;
+    height: 15px;
+    display: block;
+    margin-top: 25px;
+    background: url(../img/hmore.png) no-repeat 0 -15px;
+}
+.Kr{
+    overflow: hidden;
+}
+.Kr p{
+    float: left;
+    color: #9B9B9B;
+    width: 713px;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 8px;
+    text-align: justify;
+}
+.Kr img{
+    float: left;
+    padding-top: 25px;
+    border: none;
+    vertical-align: middle;
+}
+.Kr h3{
+    float: left;
+    margin-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    line-height: 21px;
+    color: #464646;
+}
+.hmore{
+    float: right;
+    width: 44px;
+    height: 15px;
+    display: block;
+    margin-top: 25px;
+    background: url(../img/hmore.png) no-repeat 0 -15px;
+}
+/*end 介绍详情*/
+/*版权信息*/
+footer{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 70px;
+    padding-top: 60px;
+    font-size: 12px;
+    margin: 0 auto;
+}
+.footer a{
+    margin-right: 5px;
+    color: #A0A0A0;
+    text-decoration: none;
+    cursor: pointer;
+}
+footer p{
+    font-size: 13px;
+    color: #A0A0A0;
+    text-align: center;
+}
+/*end 版权信息*/
